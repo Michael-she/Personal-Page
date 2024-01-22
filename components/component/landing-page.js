@@ -1,6 +1,6 @@
 /**
  * v0 by Vercel.
- * @see https://v0.dev/t/7uSgfvg2v3b
+ * @see https://v0.dev/t/wIpbDWfHbHd
  */
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -8,16 +8,16 @@ import Link from "next/link"
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-screen bg-blue-100 dark:bg-blue-800">
-      <header className="py-10 px-6 bg-blue-500 dark:bg-blue-700">
+    <div className="flex flex-col min-h-screen bg-blue-100 dark:bg-black">
+      <header className="py-10 px-6 bg-blue-500 dark:bg-gray-900">
         <h1 className="text-4xl font-bold text-white">Your Name</h1>
         <p className="mt-2 text-white">A brief description about yourself...</p>
       </header>
       <main className="flex-1">
         <section className="py-10 px-6">
-          <h2 className="text-2xl font-bold text-blue-900 dark:text-blue-200">Projects</h2>
+          <h2 className="text-2xl font-bold text-blue-900 dark:text-gray-200">Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-            <Card className="bg-white dark:bg-blue-700">
+            <Card className="bg-white dark:bg-gray-800">
               <img
                 alt="Project Image"
                 className="w-full h-48 object-cover"
@@ -30,19 +30,19 @@ export default function Component() {
                 width="200"
               />
               <CardHeader>
-                <CardTitle className="text-blue-900 dark:text-blue-200">Project Title</CardTitle>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Project Title</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A brief description of the project...</p>
                 <Button
-                  className="mt-4 text-blue-500 dark:text-blue-300 border-blue-500 dark:border-blue-300"
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-white dark:bg-blue-700">
+            <Card className="bg-white dark:bg-gray-800">
               <img
                 alt="Project Image"
                 className="w-full h-48 object-cover"
@@ -55,19 +55,19 @@ export default function Component() {
                 width="200"
               />
               <CardHeader>
-                <CardTitle className="text-blue-900 dark:text-blue-200">Project Title</CardTitle>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Project Title</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A brief description of the project...</p>
                 <Button
-                  className="mt-4 text-blue-500 dark:text-blue-300 border-blue-500 dark:border-blue-300"
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
                 </Button>
               </CardContent>
             </Card>
-            <Card className="bg-white dark:bg-blue-700">
+            <Card className="bg-white dark:bg-gray-800">
               <img
                 alt="Project Image"
                 className="w-full h-48 object-cover"
@@ -80,12 +80,12 @@ export default function Component() {
                 width="200"
               />
               <CardHeader>
-                <CardTitle className="text-blue-900 dark:text-blue-200">Project Title</CardTitle>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Project Title</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A brief description of the project...</p>
                 <Button
-                  className="mt-4 text-blue-500 dark:text-blue-300 border-blue-500 dark:border-blue-300"
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
@@ -95,7 +95,7 @@ export default function Component() {
           </div>
         </section>
       </main>
-      <footer className="py-10 px-6 bg-blue-500 dark:bg-blue-700">
+      <footer className="py-10 px-6 bg-blue-500 dark:bg-gray-900">
         <h2 className="text-2xl font-bold text-white">Contact</h2>
         <p className="mt-2 text-white">Email: your-email@example.com</p>
         <div className="flex space-x-4 mt-4">
