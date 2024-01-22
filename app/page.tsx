@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-import LandingPage from '../components/component/landing-page';
+import LandingPage from '@/components/component/landing-page';
 
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
    
       <LandingPage />
 
-      
+
     
   )
 }

@@ -5,24 +5,54 @@
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from 'next/image';
+
 
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-blue-100 dark:bg-black">
       <header className="py-10 px-6 bg-blue-500 dark:bg-gray-900">
-        <h1 className="text-4xl font-bold text-white">Your Name</h1>
-        <p className="mt-2 text-white">A brief description about yourself...</p>
+        <h1 className="text-4xl font-bold text-white">Michael Shepstone</h1>
+        <p className="mt-2 text-white">I am a Mechatronic Engineering student at the University of Stellenbosch. I am hightly passionate about programming and robotics. 
+        </p><p className="mt-2 text-white">I undertake a number of different projects in my spare time. This website (which is still under construction) aims to showcase some of my work</p>
       </header>
       <main className="flex-1">
         <section className="py-10 px-6">
           <h2 className="text-2xl font-bold text-blue-900 dark:text-gray-200">Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             <Card className="bg-white dark:bg-gray-800">
+            <img
+             className="w-full h-48 object-cover"
+                src="/images/20240122_145535.jpg" // Local or remote path
+                style={{
+                  aspectRatio: "200/200",
+                  objectFit: "cover",
+                }}
+                width="200"
+                alt="StarTracker Image" // Good for SEO and accessibility
+               
+                
+              />
+
+              <CardHeader>
+                <CardTitle className="text-blue-900 dark:text-gray-200">StarTracker</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 dark:text-gray-400">A gimble housing a laser capible of precisely pointing at spesific objects in the sky. Currently calculates the elevation and azimuth of the ISS using 3D vectors from it's GPS coordianates</p>
+                <Button
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                  variant="outline"
+                >
+                  View More
+                </Button>
+              </CardContent>
+            </Card>
+            <Card className="bg-white dark:bg-gray-800">
               <img
                 alt="Project Image"
                 className="w-full h-48 object-cover"
-                height="200"
-                src="/placeholder.svg"
+                
+                src="/images/IMG-20230902-WA0005.jpg"
                 style={{
                   aspectRatio: "200/200",
                   objectFit: "cover",
@@ -30,10 +60,10 @@ export default function Component() {
                 width="200"
               />
               <CardHeader>
-                <CardTitle className="text-blue-900 dark:text-gray-200">Project Title</CardTitle>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Autonomous Car</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 dark:text-gray-400">A brief description of the project...</p>
+                <p className="text-gray-600 dark:text-gray-400">For the 2023 World Robotics Olympiad, the task was to scratch build and "race" an autonomous car around a track. This was our entry into the Future Engineers Category, able to automatically navigate and drive the course. Although we won the overall competition in South Africa, we were unable to qualify for the world championship.</p>
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
@@ -47,7 +77,7 @@ export default function Component() {
                 alt="Project Image"
                 className="w-full h-48 object-cover"
                 height="200"
-                src="/placeholder.svg"
+                src="/images/20240123_010144.jpg"
                 style={{
                   aspectRatio: "200/200",
                   objectFit: "cover",
@@ -55,35 +85,10 @@ export default function Component() {
                 width="200"
               />
               <CardHeader>
-                <CardTitle className="text-blue-900 dark:text-gray-200">Project Title</CardTitle>
+                <CardTitle className="text-blue-900 dark:text-gray-200">3D Printer</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 dark:text-gray-400">A brief description of the project...</p>
-                <Button
-                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
-                  variant="outline"
-                >
-                  View More
-                </Button>
-              </CardContent>
-            </Card>
-            <Card className="bg-white dark:bg-gray-800">
-              <img
-                alt="Project Image"
-                className="w-full h-48 object-cover"
-                height="200"
-                src="/placeholder.svg"
-                style={{
-                  aspectRatio: "200/200",
-                  objectFit: "cover",
-                }}
-                width="200"
-              />
-              <CardHeader>
-                <CardTitle className="text-blue-900 dark:text-gray-200">Project Title</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-gray-600 dark:text-gray-400">A brief description of the project...</p>
+                <p className="text-gray-600 dark:text-gray-400">This 3D printer was completely scratch designed and built as a project</p>
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
@@ -97,15 +102,14 @@ export default function Component() {
       </main>
       <footer className="py-10 px-6 bg-blue-500 dark:bg-gray-900">
         <h2 className="text-2xl font-bold text-white">Contact</h2>
-        <p className="mt-2 text-white">Email: your-email@example.com</p>
+        <p className="mt-2 text-white">Email: mgshepstone@gmail.com</p>
+        <p className="mt-2 text-white">Phone: (+27) 66 258 8727</p>
         <div className="flex space-x-4 mt-4">
-          <Link className="text-white" href="#">
-            <TwitterIcon className="h-6 w-6" />
-          </Link>
-          <Link className="text-white" href="#">
+          
+          <Link className="text-white" href='https://github.com/Michael-she'>
             <GithubIcon className="h-6 w-6" />
           </Link>
-          <Link className="text-white" href="#">
+          <Link className="text-white" href='https://www.linkedin.com/in/michael-shepstone-a3992922b/'>
             <LinkedinIcon className="h-6 w-6" />
           </Link>
         </div>
@@ -156,22 +160,3 @@ function LinkedinIcon(props) {
   )
 }
 
-
-function TwitterIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-    </svg>
-  )
-}
