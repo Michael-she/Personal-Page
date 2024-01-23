@@ -97,6 +97,162 @@ export default function Component() {
                 </Button>
               </CardContent>
             </Card>
+
+
+
+
+            <Card className="bg-white dark:bg-gray-800">
+            <img
+             className="w-full h-48 object-cover"
+                src="/images/20240123_133016.jpg" // Local or remote path
+                style={{
+                  aspectRatio: "200/200",
+                  objectFit: "cover",
+                }}
+                width="200"
+                alt="StarTracker Image" // Good for SEO and accessibility
+               
+                
+              />
+
+              <CardHeader>
+                <CardTitle className="text-blue-900 dark:text-gray-200">CNC Machine</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 dark:text-gray-400">A custom built and designed computer numerical control router/laser cutter. With a build volume of 1.2m by 1.2m by 0.2m, it is able to cut large pieces of materials such as wood, plastic and aluminium.</p>
+                <Button
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                  variant="outline"
+                >
+                  View More
+                </Button>
+              </CardContent>
+            </Card>
+
+
+            <Card className="bg-white dark:bg-gray-800">
+            <img
+             className="w-full h-48 object-cover"
+                src="/images/20220401_085231.jpg" // Local or remote path
+                style={{
+                  aspectRatio: "200/200",
+                  objectFit: "cover",
+                }}
+                width="200"
+                alt="StarTracker Image" // Good for SEO and accessibility
+               
+                
+              />
+
+              <CardHeader>
+                <CardTitle className="text-blue-900 dark:text-gray-200">High Power Rocket</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 dark:text-gray-400">A scratch built high power rocket. It uses two Arduino Nanos as a custom built flight controller handling parachute deployment, flight recording and telementry. The frame is constructed from carbon tubes and wood.</p>
+                <Button
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                  variant="outline"
+                >
+                  View More
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white dark:bg-gray-800">
+            <img
+             className="w-full h-48 object-cover"
+                src="/images/20240122_145535.jpg" // Local or remote path
+                style={{
+                  aspectRatio: "200/200",
+                  objectFit: "cover",
+                }}
+                width="200"
+                alt="StarTracker Image" // Good for SEO and accessibility
+               
+                
+              />
+
+              <CardHeader>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Web Enabled Current Sensor</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 dark:text-gray-400">This RP2040/ESP32 based current sensor is capible of measuring up to 100A. The reading is then uploaded to a custom Node.js based webapp (It is currently being re-written in next.js) where it can be viewed</p>
+                <Button
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                  variant="outline"
+                >
+                  View More
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white dark:bg-gray-800">
+            <img
+             className="w-full h-48 object-cover"
+                src="/images/vecteezy_car-icon-in-flat-style-simple-traffic-icon_.jpg" // Local or remote path
+                style={{
+                  aspectRatio: "200/200",
+                  objectFit: "cover",
+                }}
+                width="200"
+                alt="StarTracker Image" // Good for SEO and accessibility
+               
+                
+              />
+
+              <CardHeader>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Carpool Coordinator</CardTitle>
+              </CardHeader>
+              <CardContent>
+              <p className="text-gray-600 dark:text-gray-400">
+                   A webapp able to intelligently group people in carpools based on their intended destination and origin points. It is available&nbsp;  
+                  <a href="https://carpool-coordinator.vercel.app/" className="text-blue-600 dark:text-blue-400">here</a>.
+              </p>
+
+                <Button
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                  variant="outline"
+                >
+                  View More
+                </Button>
+              </CardContent>
+            </Card>
+
+
+
+
+            
+            <Card className="bg-white dark:bg-gray-800">
+            <img
+             className="w-full h-48 object-cover"
+                src="/images/20240123_024908.jpg" // Local or remote path
+                style={{
+                  aspectRatio: "200/200",
+                  objectFit: "cover",
+                }}
+                width="200"
+                alt="StarTracker Image" // Good for SEO and accessibility
+               
+                
+              />
+
+              <CardHeader>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Flying Wing</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 dark:text-gray-400">A manaully controlled flying wing aircraft. It was assembled from components.</p>
+                <Button
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                  variant="outline"
+                >
+                  View More
+                </Button>
+              </CardContent>
+            </Card>
+
+
+
+
           </div>
         </section>
       </main>
