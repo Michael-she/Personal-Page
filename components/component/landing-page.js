@@ -14,7 +14,7 @@ export default function Component() {
       <header className="py-10 px-6 bg-blue-500 dark:bg-gray-900">
         <h1 className="text-4xl font-bold text-white">Michael Shepstone</h1>
         <p className="mt-2 text-white">I am a Mechatronic Engineering student at the University of Stellenbosch. I am hightly passionate about programming and robotics. 
-        </p><p className="mt-2 text-white">I undertake a number of different projects in my spare time. This website (which is still under construction) aims to showcase some of my work</p>
+        </p><p className="mt-2 text-white">I undertake a number of different projects in my spare time. This website (which is still under construction) aims to showcase some of these projects</p>
       </header>
       <main className="flex-1">
         <section className="py-10 px-6">
