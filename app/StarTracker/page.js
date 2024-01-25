@@ -62,7 +62,7 @@ export default function page() {
           </div>
           <div className="mt-10">
             <h3 className="text-xl font-bold text-blue-900 dark:text-gray-200">About the Project</h3>
-            <p className="mt-4 text-gray-600 dark:text-gray-400">
+            <p className="mt-4 text-gray-600 dark:text-gray-400 w-10/12">
             A gimble housing a laser capible of precisely pointing at spesific objects in the sky. Currently calculates the elevation and azimuth of the ISS using 3D vectors from it's GPS coordianates. 
 
             It uses an ESP32 to obtain the position of the ISS from an API. The coordianates are then converted to 3D vectors and the angle between the vectors is calculated. 

@@ -66,7 +66,7 @@ export default function page() {
                 
                 className="w-full h-full object-cover"
                 
-                src="/images/20240123_133016.jpg"
+                src="/images/IMG_20220114_160952.jpg"
                 style={{
                  
                   objectFit: "cover",

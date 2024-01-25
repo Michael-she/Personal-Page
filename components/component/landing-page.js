@@ -12,7 +12,7 @@ export default function Component() {
   return (
     <div className="flex flex-col min-h-screen bg-blue-100 dark:bg-black">
       <header className="py-10 px-6 bg-blue-500 dark:bg-gray-900">
-        <h1 className="text-4xl font-bold text-white">Michael Shepstone</h1>
+        <h1 className="text-4xl font-bold text-white mb-6">Michael Shepstone</h1>
         <p className="mt-2 text-white">I am a Mechatronic Engineering student at the University of Stellenbosch. I am hightly passionate about programming and robotics. 
         </p><p className="mt-2 text-white">I undertake a number of different projects in my spare time. This website (which is still under construction) aims to showcase some of these projects</p>
       </header>
@@ -164,7 +164,7 @@ export default function Component() {
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
-                  View More
+                  View More [Not connected]
                 </Button>
                 </Link>
               </CardContent>
@@ -193,7 +193,7 @@ export default function Component() {
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
-                  View More
+                  View More [Not connected]
                 </Button>
               </CardContent>
             </Card>
@@ -225,7 +225,7 @@ export default function Component() {
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
-                  View More
+                  View More [Not connected]
                 </Button>
               </CardContent>
             </Card>
@@ -253,12 +253,7 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A manaully controlled flying wing aircraft. It was assembled from components.</p>
-                <Button
-                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
-                  variant="outline"
-                >
-                  View More
-                </Button>
+               
               </CardContent>
             </Card>
 
@@ -280,13 +275,15 @@ export default function Component() {
                 <CardTitle className="text-blue-900 dark:text-gray-200">Servo Robot Arm</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-600 dark:text-gray-400">A small robot arm capible of moving small and light objects accross a desktop</p>
+                <p className="text-gray-600 dark:text-gray-400">A small robot arm capable of moving small and light objects across a desktop</p>
+               <Link href = "/RobotArm">
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
                 </Button>
+                </Link>
               </CardContent>
             </Card>
 

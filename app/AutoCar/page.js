@@ -19,7 +19,7 @@ import { Card } from "@/components/ui/card"
 
 
 
-import { Document, Page } from 'react-pdf';
+
 
 
 
@@ -31,7 +31,7 @@ export default function page() {
           <ArrowLeftIcon className="h-6 w-6" />
           <span className="sr-only">Back</span>
         </Link>
-        <h1 className="text-4xl font-bold text-white">Project Title</h1>
+        <h1 className="text-4xl font-bold text-white">WRO Self Driving Car</h1>
       </header>
       <main className="flex-1">
         <section className="py-10 px-6">

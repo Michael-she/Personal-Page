@@ -61,7 +61,7 @@ export default function page() {
           </div>
           <div className="mt-10">
             <h3 className="text-xl font-bold text-blue-900 dark:text-gray-200">About the Project</h3>
-            <p className="mt-4 text-gray-600 dark:text-gray-400">
+            <p className="mt-4 text-gray-600 dark:text-gray-400 text-wrap w-10/12">
             A 3D printer that was designed from scratch. All the necessary components were designed in fustion 360 and manufactured using the CNC machine that I built. Additional components were printed by the printer itself once it was operational. The printer is a cartesian printer with a 200x200x200mm build volume. 
            The printer uses an Anet A8 control board, unfortunately, this board does not provide sufficent power to the stepper motors, resulting in the printing speed being limited to 30mm/s before the motors start to skip steps.
             The printer is capable of printing in PLA and TPU. The Ender3 style hotend can reach a tempreatture of about 250 degrees celcius, which is sufficient for printing PLA and TPU.
