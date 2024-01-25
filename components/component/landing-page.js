@@ -127,12 +127,14 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A custom built and designed computer numerical control router/laser cutter. With a build volume of 1.2m by 1.2m by 0.2m, it is able to cut large pieces of materials such as wood, plastic and aluminium.</p>
+                <Link href="/CNC">
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
                 </Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -156,12 +158,15 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A scratch built high power rocket. It uses two Arduino Nanos as a custom built flight controller handling parachute deployment, flight recording and telementry. The frame is constructed from carbon tubes and wood.</p>
+               
+               <Link href="/CNC">
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
                 </Button>
+                </Link>
               </CardContent>
             </Card>
 

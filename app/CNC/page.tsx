@@ -13,7 +13,7 @@ export default function page() {
           <ArrowLeftIcon className="h-6 w-6" />
           <span className="sr-only">Back</span>
         </Link>
-        <h1 className="text-4xl font-bold text-white">Project Title</h1>
+        <h1 className="text-4xl font-bold text-white">CNC Machine</h1>
       </header>
       <main className="flex-1">
         <section className="py-10 px-6">
@@ -22,9 +22,9 @@ export default function page() {
             <Card className="bg-white dark:bg-gray-800">
               <img
                 alt="Project Image 1"
-                className="w-full h-48 object-cover"
+                className="w-full h-100 object-cover"
                 height="200"
-                src="/images/"
+                src="/images/20240123_133029.jpg"
                 style={{
                   aspectRatio: "200/200",
                   objectFit: "cover",
@@ -35,9 +35,9 @@ export default function page() {
             <Card className="bg-white dark:bg-gray-800">
               <img
                 alt="Project Image 2"
-                className="w-full h-48 object-cover"
+                className="w-full h-100 object-cover"
                 height="200"
-                src="/images/"
+                src="/images/20240123_133043.jpg"
                 style={{
                   aspectRatio: "200/200",
                   objectFit: "cover",
@@ -48,9 +48,9 @@ export default function page() {
             <Card className="bg-white dark:bg-gray-800">
               <img
                 alt="Project Image 3"
-                className="w-full h-48 object-cover"
+                className="w-full h-100 object-cover"
                 height="200"
-                src="/images/"
+                src="/images/CNC in action.PNG"
                 style={{
                   aspectRatio: "200/200",
                   objectFit: "cover",
@@ -59,14 +59,92 @@ export default function page() {
               />
             </Card>
           </div>
+                
+
+ <div className="grid grid-cols-1 gap-6 mt-4 w-9/10 mx-auto">
+              <img
+                
+                className="w-full h-full object-cover"
+                
+                src="/images/20240123_133016.jpg"
+                style={{
+                 
+                  objectFit: "cover",
+                }}
+                />
+                </div>
           <div className="mt-10">
-            <h3 className="text-xl font-bold text-blue-900 dark:text-gray-200">About the Project</h3>
-            <p className="mt-4 text-gray-600 dark:text-gray-400">
-              This is a detailed description of the project. It explains the purpose of the project, the technologies
-              used, the challenges faced during development, and the solutions implemented to overcome those challenges.
-              The project description also highlights the key features of the project and explains how they contribute
-              to the overall functionality of the project.
+         
+
+            <h3 className="text-xl font-bold text-blue-900 dark:text-gray-200 mt-10">About the Project</h3>
+            
+            <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+            Overview:
+            </h4>
+            <p className="ml-10 mt-4 text-gray-600 dark:text-gray-400">
+              This project features a custom-built CNC (Computer Numerical Control) machine, epitomizing advanced mechanical engineering and control systems. It combines durable materials with sophisticated technology, offering high precision and versatility in machining.
             </p>
+            <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+                Frame Construction:
+              </h4>
+                  <div>
+                    <p className=" mt-4 ml-10 text-gray-600 dark:text-gray-400">
+                          The frame of the machine is constructed from welded steel, ensuring a sturdy and durable base. This design focuses on stability and rigidity to maintain precision during machining processes.
+                    </p></div>
+              <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+                    Axis Movement:
+              </h4>
+
+                    <p className=" ml-10 mt-4 text-gray-600 dark:text-gray-400">
+                          The machine employs guided chromed rods and carriages for axis movement, providing smooth, accurate, and consistent motion.
+                    </p>
+             
+             
+              <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+              Drive System:
+              </h4>
+              <p className="ml-10 mt-4 text-gray-600 dark:text-gray-400">
+              Ball screws are used in the drive system, chosen for their superior accuracy and efficiency. This selection offers gear reduction advantages, enhancing torque while maintaining precision.
+              </p>
+              <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+              Spindle:
+              </h4>
+              <p className="ml-10 mt-4 text-gray-600 dark:text-gray-400">
+
+              The spindle is a powerful 2.2KW water-cooled model, capable of reaching speeds up to 22,000 RPM. Speed control is managed by a Variable Frequency Drive (VFD), allowing precise adjustments.
+              </p>
+              <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+              Control System:
+              </h4>
+              <p className="ml-10 mt-4 text-gray-600 dark:text-gray-400">
+              At its core, the machine is controlled by an Arduino Nano running GRBL, with commands fed through Universal Gcode Sender. This setup facilitates easy programming and operation of the machine.
+              </p>
+              <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+              Build Volume:
+              </h4>
+              <p className="ml-10 mt-4 text-gray-600 dark:text-gray-400">
+              The machine boasts a substantial build volume of 1.5m x 1.5m x 200mm, accommodating large-scale projects and a variety of material sizes.
+              </p>
+              <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+              Stepper Motors:
+              </h4>
+              <p className=" ml-10 mt-4 text-gray-600 dark:text-gray-400">
+              It utilizes high precision NEMA 23 motors for the stepper systems, ensuring accurate and consistent movement across all CNC axes.
+              </p>
+              <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+              Machine Resolution:
+              </h4>
+              <p className="ml-10 mt-4 text-gray-600 dark:text-gray-400">
+              The machine offers a high resolution of 0.016mm, capable of cutting wood, plastics, and aluminium with exceptional precision.
+                </p>
+                <h4 className=" font-bold text-l mt-4 text-gray-600 dark:text-gray-400">
+              Versatility:
+              </h4>
+              <p className="ml-10 mt-4 text-gray-600 dark:text-gray-400">
+              Adding to its functionality, the machine can be equipped with a laser cutter attachment, expanding its capabilities to include both traditional CNC machining and laser cutting operations.
+
+              In summary, this custom-built CNC machine is a fusion of robust design and advanced technology, making it suitable for precision machining in diverse materials and applications. The inclusion of a laser cutter attachment further enhances its utility, marking it as a valuable asset in various workshop and manufacturing settings.
+                          </p>
           </div>
         </section>
       </main>
