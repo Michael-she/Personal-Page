@@ -18,7 +18,7 @@ export default function Component() {
       </header>
       <main className="flex-1">
         <section className="py-10 px-6">
-          <h2 className="text-2xl font-bold text-blue-900 dark:text-gray-200">Projects</h2>
+          
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             <Card className="bg-white dark:bg-gray-800">
             <img
@@ -39,12 +39,15 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A gimble housing a laser capible of precisely pointing at spesific objects in the sky. Currently calculates the elevation and azimuth of the ISS using 3D vectors from it's GPS coordianates</p>
-                <Button
-                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
-                  variant="outline"
-                >
+                <Link href="/StarTracker">  
+                  <Button
+                    className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                    variant="outline"
+                    
+                  >
                   View More
                 </Button>
+                </Link>
               </CardContent>
             </Card>
             <Card className="bg-white dark:bg-gray-800">
@@ -64,12 +67,14 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">For the 2023 World Robotics Olympiad, the task was to scratch build and "race" an autonomous car around a track. This was our entry into the Future Engineers Category, able to automatically navigate and drive the course. Although we won the overall competition in South Africa, we were unable to qualify for the world championship.</p>
+                <Link href="/AutoCar">  
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
                 </Button>
+                </Link>
               </CardContent>
             </Card>
             <Card className="bg-white dark:bg-gray-800">
@@ -89,12 +94,14 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">This 3D printer was completely scratch designed and built as a project</p>
+                <Link href="/3DPrinter">  
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
                   View More
                 </Button>
+                </Link>
               </CardContent>
             </Card>
 
@@ -161,7 +168,7 @@ export default function Component() {
             <Card className="bg-white dark:bg-gray-800">
             <img
              className="w-full h-48 object-cover"
-                src="/images/20240122_145535.jpg" // Local or remote path
+                src="/images/20240123_140721.jpg" // Local or remote path
                 style={{
                   aspectRatio: "200/200",
                   objectFit: "cover",
@@ -241,6 +248,34 @@ export default function Component() {
               </CardHeader>
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A manaully controlled flying wing aircraft. It was assembled from components.</p>
+                <Button
+                  className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
+                  variant="outline"
+                >
+                  View More
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-white dark:bg-gray-800">
+            <img
+             className="w-full h-48 object-cover"
+                src="/images/Screenshot 2024-01-22 at 14-05-30 Untitled document - Google Docs.png" // Local or remote path
+                style={{
+                  aspectRatio: "200/200",
+                  objectFit: "cover",
+                }}
+                width="200"
+                alt="StarTracker Image" // Good for SEO and accessibility
+               
+                
+              />
+
+              <CardHeader>
+                <CardTitle className="text-blue-900 dark:text-gray-200">Servo Robot Arm</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-600 dark:text-gray-400">A small robot arm capible of moving small and light objects accross a desktop</p>
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
