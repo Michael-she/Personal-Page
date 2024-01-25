@@ -159,12 +159,13 @@ export default function Component() {
               <CardContent>
                 <p className="text-gray-600 dark:text-gray-400">A scratch built high power rocket. It uses two Arduino Nanos as a custom built flight controller handling parachute deployment, flight recording and telementry. The frame is constructed from carbon tubes and wood.</p>
                
-               <Link href="/CNC">
+              
+                <Link href="/HighPowerRocket">
                 <Button
                   className="mt-4 text-blue-500 dark:text-gray-300 border-blue-500 dark:border-gray-600"
                   variant="outline"
                 >
-                  View More [Not connected]
+                  View More 
                 </Button>
                 </Link>
               </CardContent>
